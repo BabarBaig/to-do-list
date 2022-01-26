@@ -18,9 +18,15 @@ function App() {
         setToDos(newToDos)
         setValue('')
     }
+    const removeToDo = e => {
+        const index = Number(e.target.id)
+        let temp = [...toDos]
+        temp.splice(index, 1)
+        setToDos(temp)
+    }
     return (<>
         {toDos.map((todo, i) =>
-            <div className="todo" key={i}>{todo.text}</div>)}
+            <div className="todo" key={i} id={i} onClick={removeToDo}>{todo.text}</div>)}
         <form onSubmit={handleSubmit}>
             <input type="text" className="input" value={value}
                 placeholder="Add TodDo ..."
