@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+<!-- to execute: run http-server in local directory, and open index.html -->
 <html>
   <head>
     <meta charset="UTF-8" />
     <title>ToDo List</title>
 
-    <!-- don't use this in production: -->
+    <!-- don't use this in production: transpiler -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js" ></script>
   </head>
 
@@ -16,7 +17,7 @@
     <div id="root"></div>
 
     <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <!-- react libraries: when deploying, replace "development.js" with "production.min.js" -->
     <script src="https://unpkg.com/react/umd/react.development.js"         crossorigin></script>
     <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
 
