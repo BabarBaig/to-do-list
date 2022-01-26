@@ -9,5 +9,5 @@
 2. Open a bash shell and cd to this repo
 3. Install and run http-server in this folder
 4. Goto <http://localhost:8080>
-5. Load file index.html
+5. It should automatically load file index.html
 
