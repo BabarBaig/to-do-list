@@ -6,6 +6,7 @@
 ## To execute
 
 Visit <https://babarbaig.github.io/to-do-list/>
+[go](https://babarbaig.github.io/to-do-list){:target="_blank"}
 
 Or do the following:
 1. Clone this repo to a PC
