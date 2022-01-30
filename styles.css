@@ -3,8 +3,7 @@ body {
     font-family: 'Arial';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    width: 800px;
-    height: 1000px;
+    width: 700px;
 }
 
 code {
@@ -14,16 +13,17 @@ code {
 h1 {
     background: black;
     color: white;
+    text-align: center;
 }
 
 .app {
     background: #a0c3df;
     padding: 30px;
-    height: 100vh;
+    height: 50vh;
 }
 
 .todo-list {
-    background: #b6a1a1;
+    background: lightgrey;
     border-radius: 4px;
     padding: 5px;
     max-width: 600px;
