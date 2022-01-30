@@ -44,7 +44,7 @@ h1 {
     box-sizing: border-box;
     border: 0;
     border-radius: 4px;
-    box-shadow: lightblue;
+    box-shadow: none;
     padding: 1rem;
     height: 2.25em;
     font-size: 24px;
