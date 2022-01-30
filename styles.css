@@ -9,6 +9,11 @@ code {
     font-family: 'Arial';
 }
 
+.h1 {
+    font-color: blue;
+    color: red;
+}
+
 .app {
     background: #209cee;
     padding: 30px;
