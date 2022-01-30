@@ -11,26 +11,28 @@ function App() {
             isCompleted: false
         }
     ])
-    const [value, setValue] = React.useState('')    // managed variable
+    const [value, setValue] = React.useState('')
     const handleSubmit = e => {
-        e.preventDefault();     // prevent default behavior of loading page
-        if (!value)     return
+        e.preventDefault()
+        if (!value) return
         const newToDos = [...toDos, {text:value, isCompleted:false}]
-        setToDos(newToDos)      // Refresh list of ToDos
-        setValue('')            // clear input field, get it ready for next ToDo
-    }
-    const removeToDo = e => {   // When an item is clicked, delete it
-        const i = Number(e.target.id)
-        let newToDos = [...toDos]
-        newToDos.splice(i, 1)   // NOTE: splice mutates IN PLACE!
         setToDos(newToDos)
+        setValue('')
+    }
+    const removeToDo = e => {   // when user clicks on an item, delete it
+        const index = Number(e.target.id)
+        let temp = [...toDos]
+        temp.splice(index, 1)
+        setToDos(temp)
     }
     return (<>
         {toDos.map((todo, i) =>
             <div className="todo" key={i} id={i} onClick={removeToDo}>{todo.text}</div>)}
         <form onSubmit={handleSubmit}>
-            <input type="text" className="input" value={value} placeholder="Add TodDo ..."
-                onChange={e => setValue(e.target.value)}/>
+            <input type="text" className="input" value={value}
+                placeholder="Add TodDo ..."
+                onChange={e => setValue(e.target.value)}
+            />
         </form>
     </>)
 }
