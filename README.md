@@ -9,6 +9,8 @@ Visit <https://babarbaig.github.io/to-do-list/>
 
 [go](https://babarbaig.github.io/to-do-list){:target="_blank"}
 
+[go](https://babarbaig.github.io/to-do-list){:target="_blank" rel="noopener"}
+
 Or do the following:
 1. Clone this repo to a PC
 2. Open a bash shell and cd to this repo
