@@ -5,6 +5,9 @@
 
 ## To execute
 
+Visit <https://babarbaig.github.io/to-do-list/>
+
+Or do the following:
 1. Clone this repo to a PC
 2. Open a bash shell and cd to this repo
 3. Install and run http-server in this folder
