@@ -10,7 +10,8 @@ code {
 }
 
 h1 {
-    color: blue;
+    background: black;
+    color: white;
 }
 
 .app {
