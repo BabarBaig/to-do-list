@@ -1,6 +1,6 @@
 # ToDo List
 
-* Create a ToDo list with basic styling  
+* Create a ToDo list using React  
 * Implement full functionality of CRUD (Create Read Update Delete) 
 
 ## To execute
