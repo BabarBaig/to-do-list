@@ -10,16 +10,16 @@ code {
 }
 
 .app {
-    background: #209cee;
+    background: #a0c3df;
     padding: 30px;
     height: 100vh;
 }
 
 .todo-list {
-    background: #423939;
+    background: #b6a1a1;
     border-radius: 4px;
     padding: 5px;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .todo {

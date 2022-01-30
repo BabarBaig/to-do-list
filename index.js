@@ -23,11 +23,15 @@ function App() {
         setToDos(newToDos)
     }
 
-    return (<>
-        {toDos.map((todo, i) =>
-            <ToDo index={i} todo={todo} remove={removeToDo} key={i}/>)}
-        <ToDoForm addToDo={addToDo}/>
-    </>)
+    return (
+        <div className="app">
+            <div className="todo-list">
+                {toDos.map((todo, i) =>
+                    <ToDo index={i} todo={todo} remove={removeToDo} key={i}/>)}
+                <ToDoForm addToDo={addToDo}/>
+            </div>
+        </div>
+    )
 }
 
 ReactDOM.render(
