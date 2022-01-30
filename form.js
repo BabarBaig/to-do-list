@@ -10,7 +10,7 @@ function ToDoForm({addToDo}) {
 
     return(
         <form onSubmit={handleSubmit}>
-            <input type="text" className="input" value={value} placeholder="Add TodDo ..."
+            <input type="text" className="input" value={value} placeholder="Add ToDo Item ..."
                 onChange={e => setValue(e.target.value)}/>
         </form>
     )

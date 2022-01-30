@@ -13,7 +13,7 @@ function App() {
     ])
 
     const addToDo = text => {
-        const newToDos = [...toDos, {text:value, isCompleted:false}]
+        const newToDos = [...toDos, {text:text, isCompleted:false}]
         setToDos(newToDos)      // Refresh list of ToDos
     }
 
